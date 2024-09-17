@@ -1,0 +1,89 @@
+/* Header */
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .login-btn, .register-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-btn {
+    background-color: #28a745;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-us {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .clients-btn, .freelancers-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links .section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
